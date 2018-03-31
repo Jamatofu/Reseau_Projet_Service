@@ -1,0 +1,7 @@
+C:\Users\Clément\source\repos\Wcf-gui\Console\bin\Debug\Console.exe.config
+C:\Users\Clément\source\repos\Wcf-gui\Console\bin\Debug\Console.exe
+C:\Users\Clément\source\repos\Wcf-gui\Console\bin\Debug\Console.pdb
+C:\Users\Clément\source\repos\Wcf-gui\Console\obj\Debug\Console-Velib.csproj.CoreCompileInputs.cache
+C:\Users\Clément\source\repos\Wcf-gui\Console\obj\Debug\Console.exe
+C:\Users\Clément\source\repos\Wcf-gui\Console\obj\Debug\Console.pdb
+C:\Users\Clément\source\repos\Wcf-gui\Console\obj\Debug\Console-Velib.csprojResolveAssemblyReference.cache
