@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -10,13 +11,13 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Wcf_gui.ServiceReference1;
+using Wcf_gui.VelibService;
 
 namespace Wcf_gui
 {
     public partial class MainWindow : Window
     {
-        private ServiceReference1.Service1Client client;
+        private VelibService.VelibServiceClient client;
         public string Ville { get; set; }
         public string Station { get; set; }
         public ListView list;
@@ -26,7 +27,10 @@ namespace Wcf_gui
             InitializeComponent();
             DataContext = this;
             list = this.FindName("listView") as ListView;
-            this.client = new ServiceReference1.Service1Client();
+
+            VelibServiceCallbackSink sink = new VelibServiceCallbackSink();
+            InstanceContext context = new InstanceContext(sink);
+            this.client = new VelibService.VelibServiceClient(context);
         }
 
         /// <summary>

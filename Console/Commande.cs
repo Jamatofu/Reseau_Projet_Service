@@ -6,7 +6,8 @@ using System.IO;
 using System.Threading.Tasks;
 using System.ComponentModel;
 using System.Reflection;
-using ConsoleVelib.ServiceReference1;
+using System.ServiceModel;
+using ConsoleVelib.VelibService;
 
 namespace ConsoleVelib
 {
@@ -23,17 +24,21 @@ namespace ConsoleVelib
         STATION,
         [Description("Nombre de vélos disponibles à une station")]
         AVAILABLE_BIKES,
+        [Description("S'abonner à une station")]
+        SUBSCRIBE,
         [Description("Commande inutile pour l'utilisateur")]
         NONE
     }
 
     public class Commande
     {
-        public ServiceReference1.Service1Client client;
+        public VelibService.VelibServiceClient client;
 
         public Commande()
         {
-            this.client = new ServiceReference1.Service1Client();
+            VelibServiceCallbackSink sink = new VelibServiceCallbackSink();
+            InstanceContext context = new InstanceContext(sink);
+            this.client = new VelibService.VelibServiceClient(context);
             GetInput();
         }
 
@@ -85,6 +90,16 @@ namespace ConsoleVelib
                         if (splitCommand.Length > 2)
                         {
                             GetAvailableBikes(splitCommand[1], splitCommand[2]);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Mauvais nombre d'argument");
+                        }
+                        break;
+                    case AvailableCommand.SUBSCRIBE:
+                        if(splitCommand.Length > 2)
+                        {
+                            this.client.SubscribeToAvailableBikesChanged(splitCommand[1], splitCommand[2], Int32.Parse(splitCommand[3]));
                         }
                         else
                         {

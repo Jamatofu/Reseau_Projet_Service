@@ -1,0 +1,12 @@
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-host\bin\Debug\Wcf-host.exe.config
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-host\bin\Debug\Wcf-host.exe
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-host\bin\Debug\Wcf-host.pdb
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-host\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-host\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-host\obj\Debug\Wcf-host.csprojResolveAssemblyReference.cache
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-host\obj\Debug\Wcf-host.csproj.CoreCompileInputs.cache
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-host\obj\Debug\Wcf-host.exe
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-host\obj\Debug\Wcf-host.pdb
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-host\bin\Debug\Wcf-Service.dll
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-host\bin\Debug\Wcf-Service.pdb
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-host\bin\Debug\Wcf-Service.dll.config

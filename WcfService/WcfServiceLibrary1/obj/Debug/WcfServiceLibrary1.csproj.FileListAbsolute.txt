@@ -1,9 +1,0 @@
-c:\users\clément\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojResolveAssemblyReference.cache
-c:\users\clément\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CoreCompileInputs.cache
-c:\users\clément\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
-c:\users\clément\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
-c:\users\clément\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
-c:\users\clément\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\Newtonsoft.Json.dll
-c:\users\clément\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\Newtonsoft.Json.xml
-c:\users\clément\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
-c:\users\clément\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb

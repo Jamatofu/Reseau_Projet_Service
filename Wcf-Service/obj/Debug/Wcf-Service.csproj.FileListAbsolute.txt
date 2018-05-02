@@ -1,0 +1,9 @@
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-Service\bin\Debug\Wcf-Service.dll.config
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-Service\bin\Debug\Wcf-Service.dll
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-Service\bin\Debug\Wcf-Service.pdb
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-Service\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-Service\obj\Debug\Wcf-Service.csprojResolveAssemblyReference.cache
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-Service\obj\Debug\Wcf-Service.csproj.CoreCompileInputs.cache
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-Service\obj\Debug\Wcf-Service.dll
+C:\Users\Clément\source\repos\Wcf-gui\Wcf-Service\obj\Debug\Wcf-Service.pdb
